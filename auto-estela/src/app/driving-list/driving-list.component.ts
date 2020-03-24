@@ -20,8 +20,8 @@ export class DrivingListComponent implements OnInit {
   {
     this.driveList=auto;
   }
-  onNoleggia()
+  onNoleggia(auto:Drive)
   {
-    console.log();
+    console.log(auto);
   }
 }
